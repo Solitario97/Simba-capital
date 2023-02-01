@@ -180,3 +180,91 @@ p{
 	font-weight:bold
 
 }
+@media(max-width: 1870px){
+	.left_things{
+		display: none;
+	}
+	.center_things{
+		margin-left: 20px;
+	}
+}
+@media(max-width: 1728px){
+	.main_text{
+		left: 440px;
+	}
+}
+@media(max-width: 1451px){
+	.main_text{
+		left: 340px;
+	}
+	.logo_img{
+		width: 100px;
+		top: 50px;
+		right: 80px;
+		border-radius: 100%;
+	}
+	.card{
+		width: 800px;
+	}
+	.card_img{
+		margin-top: 5px;
+		width: 300px;
+		height: 200px;
+	}
+}
+@media(max-width: 1288px){
+	.right_things{
+		display: none;
+	}
+	.card{
+		width: 1000px;
+	}
+	.logo_img{
+		width: 70px;
+		top: 50px;
+		right: 50px;
+	}
+}
+@media(max-width: 1158px){
+	.logo_img{
+		width: 70px;
+		top: 20px;
+		right: 100px;
+	}
+}
+@media(max-width: 1035px){
+	.card{
+		width: 700px;
+	}
+	.main_text{
+		left: 40px;
+	}
+	.card_img{
+		margin-top: 12px;
+	}
+}
+
+@media(max-width: 730px){
+	.logo_img{
+		width: 70px;
+		top: 300px;
+		right: -100px;
+	}
+}
+
+@media(max-width: 535px){
+	.card{
+		width: 700px;
+	}
+	.main_text{
+		left: 50px;
+		font-size: 30px;
+	}
+	.card_img{
+		margin-top: 15px;
+	}
+	
+}
+
+
+
